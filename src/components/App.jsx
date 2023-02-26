@@ -44,7 +44,7 @@ if (prevState.contacts!== this.state.contacts) {
     const contactsAfterFiltr = contacts.filter(({ name }) =>
       name.toLowerCase().includes(filter)
     );
-    console.log(this.state);
+   //  console.log(this.state);
     return (
       <div className={css.app}>
         <h1>Phonebook</h1>

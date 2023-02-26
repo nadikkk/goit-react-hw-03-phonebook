@@ -23,7 +23,6 @@ export class ContactForm extends Component {
       return;
     } onSubmit({ id, ...this.state });
     this.setState({ name: '', number: '' });
-    // console.log(onSubmit({id, ...this.state}));
   };
 
   render() {
